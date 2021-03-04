@@ -1,0 +1,85 @@
+name: NG
+on:
+  schedule:
+    - cron: '2 0,12 * * *'
+  workflow_dispatch:
+jobs:
+  AutoSyncProcess:
+    runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
+    
+    steps:
+    - uses: actions/checkout@v2.1.0
+    - name: Gclone Install
+      run: 
+        wget -qO- https://git.io/gclone.sh | sudo bash
+    - name: Inject Rclone config
+      run: |
+        mkdir -p ~/.config/rclone/
+        cat >  ~/.config/rclone/rclone.conf  << EOF
+        ${{ secrets.RCLONE_CONF }}
+        EOF
+        mkdir -p /home/runner/accounts/ 
+        cat >  /home/runner/accounts/1.json  << EOF
+        ${{ secrets.SA1_CONF }}
+        EOF
+        cat >  /home/runner/accounts/2.json  << EOF
+        ${{ secrets.SA2_CONF }}
+        EOF
+        cat >  /home/runner/accounts/3.json  << EOF
+        ${{ secrets.SA3_CONF }}
+        EOF
+        cat >  /home/runner/accounts/4.json  << EOF
+        ${{ secrets.SA4_CONF }}
+        EOF
+        cat >  /home/runner/accounts/5.json  << EOF
+        ${{ secrets.SA5_CONF }}
+        EOF
+        cat >  /home/runner/accounts/6.json  << EOF
+        ${{ secrets.SA6_CONF }}
+        EOF
+        cat >  /home/runner/accounts/7.json  << EOF
+        ${{ secrets.SA7_CONF }}
+        EOF
+        cat >  /home/runner/accounts/8.json  << EOF
+        ${{ secrets.SA8_CONF }}
+        EOF
+        cat >  /home/runner/accounts/9.json  << EOF
+        ${{ secrets.SA9_CONF }}
+        EOF
+        cat >  /home/runner/accounts/10.json  << EOF
+        ${{ secrets.SA10_CONF }}
+        EOF
+        cat >  /home/runner/accounts/11.json  << EOF
+        ${{ secrets.SA11_CONF }}
+        EOF
+        cat >  /home/runner/accounts/12.json  << EOF
+        ${{ secrets.SA12_CONF }}
+        EOF
+        cat >  /home/runner/accounts/13.json  << EOF
+        ${{ secrets.SA13_CONF }}
+        EOF
+        cat >  /home/runner/accounts/14.json  << EOF
+        ${{ secrets.SA14_CONF }}
+        EOF
+        cat >  /home/runner/accounts/15.json  << EOF
+        ${{ secrets.SA15_CONF }}
+        EOF
+        cat >  /home/runner/accounts/16.json  << EOF
+        ${{ secrets.SA16_CONF }}
+        EOF
+        cat >  /home/runner/accounts/17.json  << EOF
+        ${{ secrets.SA17_CONF }}
+        EOF
+        cat >  /home/runner/accounts/18.json  << EOF
+        ${{ secrets.SA18_CONF }}
+        EOF
+        cat >  /home/runner/accounts/19.json  << EOF
+        ${{ secrets.SA19_CONF }}
+        EOF
+        cat >  /home/runner/accounts/20.json  << EOF
+        ${{ secrets.SA20_CONF }}
+        EOF
+    - name: Rclone Synchronizing file
+      run: |
+       gclone copy gc:{0AKCKa2Z6oPAjUk9PVA}  gc2:{0AMhVKm5Lai_DUk9PVA} -v  --cache-chunk-total-size 20G --transfers=12 --drive-chunk-size 128M
