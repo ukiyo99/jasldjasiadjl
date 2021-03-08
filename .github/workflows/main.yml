@@ -1,9 +1,11 @@
-name: AutoDownloader
 on:
+  watch:
+    types: started
   workflow_dispatch:
 jobs:
-  AutoDownloaderProcess:
+  AutoSyncProcess:
     runs-on: ubuntu-latest
+    if: github.event.repository.owner.id == github.event.sender.id
     steps:
     - uses: actions/checkout@v2.1.0
     - name: Gclone Install
