@@ -136,7 +136,7 @@ jobs:
         cat >  /home/runner/accounts/38.json  << EOF
         ${{ secrets.SA38_CONF }}
         EOF
-        cat >  /home/runner/accounts/39.json  << EOF
+	cat >  /home/runner/accounts/39.json  << EOF
         ${{ secrets.SA39_CONF }}
         EOF
         cat >  /home/runner/accounts/40.json  << EOF
