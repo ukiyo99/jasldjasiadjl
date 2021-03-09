@@ -82,6 +82,186 @@ jobs:
         cat >  /home/runner/accounts/20.json  << EOF
         ${{ secrets.SA20_CONF }}
         EOF
+		cat >  /home/runner/accounts/21.json  << EOF
+        ${{ secrets.SA21_CONF }}
+        EOF
+        cat >  /home/runner/accounts/22.json  << EOF
+        ${{ secrets.SA2_CONF }}
+        EOF
+        cat >  /home/runner/accounts/23.json  << EOF
+        ${{ secrets.SA23_CONF }}
+        EOF
+        cat >  /home/runner/accounts/24.json  << EOF
+        ${{ secrets.SA24_CONF }}
+        EOF
+        cat >  /home/runner/accounts/25.json  << EOF
+        ${{ secrets.SA25_CONF }}
+        EOF
+        cat >  /home/runner/accounts/26.json  << EOF
+        ${{ secrets.SA26_CONF }}
+        EOF
+        cat >  /home/runner/accounts/27.json  << EOF
+        ${{ secrets.SA27_CONF }}
+        EOF
+        cat >  /home/runner/accounts/28.json  << EOF
+        ${{ secrets.SA28_CONF }}
+        EOF
+        cat >  /home/runner/accounts/29.json  << EOF
+        ${{ secrets.SA29_CONF }}
+        EOF
+        cat >  /home/runner/accounts/30.json  << EOF
+        ${{ secrets.SA30_CONF }}
+        EOF
+        cat >  /home/runner/accounts/31.json  << EOF
+        ${{ secrets.SA31_CONF }}
+        EOF
+        cat >  /home/runner/accounts/32.json  << EOF
+        ${{ secrets.SA32_CONF }}
+        EOF
+        cat >  /home/runner/accounts/33.json  << EOF
+        ${{ secrets.SA33_CONF }}
+        EOF
+        cat >  /home/runner/accounts/34.json  << EOF
+        ${{ secrets.SA34_CONF }}
+        EOF
+        cat >  /home/runner/accounts/35.json  << EOF
+        ${{ secrets.SA35_CONF }}
+        EOF
+        cat >  /home/runner/accounts/36.json  << EOF
+        ${{ secrets.SA36_CONF }}
+        EOF
+        cat >  /home/runner/accounts/37.json  << EOF
+        ${{ secrets.SA37_CONF }}
+        EOF
+        cat >  /home/runner/accounts/38.json  << EOF
+        ${{ secrets.SA38_CONF }}
+        EOF
+        cat >  /home/runner/accounts/39.json  << EOF
+        ${{ secrets.SA39_CONF }}
+        EOF
+        cat >  /home/runner/accounts/40.json  << EOF
+        ${{ secrets.SA40_CONF }}
+        EOF
+		cat >  /home/runner/accounts/41.json  << EOF
+        ${{ secrets.SA41_CONF }}
+        EOF
+        cat >  /home/runner/accounts/42.json  << EOF
+        ${{ secrets.SA42_CONF }}
+        EOF
+        cat >  /home/runner/accounts/43.json  << EOF
+        ${{ secrets.SA43_CONF }}
+        EOF
+        cat >  /home/runner/accounts/44.json  << EOF
+        ${{ secrets.SA44_CONF }}
+        EOF
+        cat >  /home/runner/accounts/45.json  << EOF
+        ${{ secrets.SA45_CONF }}
+        EOF
+        cat >  /home/runner/accounts/46.json  << EOF
+        ${{ secrets.SA46_CONF }}
+        EOF
+        cat >  /home/runner/accounts/47.json  << EOF
+        ${{ secrets.SA47_CONF }}
+        EOF
+        cat >  /home/runner/accounts/48.json  << EOF
+        ${{ secrets.SA48_CONF }}
+        EOF
+        cat >  /home/runner/accounts/49.json  << EOF
+        ${{ secrets.SA49_CONF }}
+        EOF
+        cat >  /home/runner/accounts/50.json  << EOF
+        ${{ secrets.SA50_CONF }}
+        EOF
+        cat >  /home/runner/accounts/51.json  << EOF
+        ${{ secrets.SA51_CONF }}
+        EOF
+        cat >  /home/runner/accounts/52.json  << EOF
+        ${{ secrets.SA52_CONF }}
+        EOF
+        cat >  /home/runner/accounts/53.json  << EOF
+        ${{ secrets.SA53_CONF }}
+        EOF
+        cat >  /home/runner/accounts/54.json  << EOF
+        ${{ secrets.SA54_CONF }}
+        EOF
+        cat >  /home/runner/accounts/55.json  << EOF
+        ${{ secrets.SA55_CONF }}
+        EOF
+        cat >  /home/runner/accounts/56.json  << EOF
+        ${{ secrets.SA56_CONF }}
+        EOF
+        cat >  /home/runner/accounts/57.json  << EOF
+        ${{ secrets.SA57_CONF }}
+        EOF
+        cat >  /home/runner/accounts/58.json  << EOF
+        ${{ secrets.SA58_CONF }}
+        EOF
+        cat >  /home/runner/accounts/59.json  << EOF
+        ${{ secrets.SA59_CONF }}
+        EOF
+        cat >  /home/runner/accounts/60.json  << EOF
+        ${{ secrets.SA60_CONF }}
+        EOF
+		cat >  /home/runner/accounts/61.json  << EOF
+        ${{ secrets.SA61_CONF }}
+        EOF
+        cat >  /home/runner/accounts/62.json  << EOF
+        ${{ secrets.SA62_CONF }}
+        EOF
+        cat >  /home/runner/accounts/63.json  << EOF
+        ${{ secrets.SA63_CONF }}
+        EOF
+        cat >  /home/runner/accounts/64.json  << EOF
+        ${{ secrets.SA64_CONF }}
+        EOF
+        cat >  /home/runner/accounts/65.json  << EOF
+        ${{ secrets.SA65_CONF }}
+        EOF
+        cat >  /home/runner/accounts/66.json  << EOF
+        ${{ secrets.SA66_CONF }}
+        EOF
+        cat >  /home/runner/accounts/67.json  << EOF
+        ${{ secrets.SA67_CONF }}
+        EOF
+        cat >  /home/runner/accounts/68.json  << EOF
+        ${{ secrets.SA68_CONF }}
+        EOF
+        cat >  /home/runner/accounts/69.json  << EOF
+        ${{ secrets.SA69_CONF }}
+        EOF
+        cat >  /home/runner/accounts/70.json  << EOF
+        ${{ secrets.SA70_CONF }}
+        EOF
+        cat >  /home/runner/accounts/71.json  << EOF
+        ${{ secrets.SA71_CONF }}
+        EOF
+        cat >  /home/runner/accounts/72.json  << EOF
+        ${{ secrets.SA72_CONF }}
+        EOF
+        cat >  /home/runner/accounts/73.json  << EOF
+        ${{ secrets.SA73_CONF }}
+        EOF
+        cat >  /home/runner/accounts/74.json  << EOF
+        ${{ secrets.SA74_CONF }}
+        EOF
+        cat >  /home/runner/accounts/75.json  << EOF
+        ${{ secrets.SA75_CONF }}
+        EOF
+        cat >  /home/runner/accounts/76.json  << EOF
+        ${{ secrets.SA76_CONF }}
+        EOF
+        cat >  /home/runner/accounts/77.json  << EOF
+        ${{ secrets.SA77_CONF }}
+        EOF
+        cat >  /home/runner/accounts/78.json  << EOF
+        ${{ secrets.SA78_CONF }}
+        EOF
+        cat >  /home/runner/accounts/79.json  << EOF
+        ${{ secrets.SA79_CONF }}
+        EOF
+        cat >  /home/runner/accounts/80.json  << EOF
+        ${{ secrets.SA80_CONF }}
+        EOF
     - name: Aria2_Downloading_File
       run: |
         ${{ secrets.OTENKIYA_DL }}
