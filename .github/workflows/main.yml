@@ -82,9 +82,6 @@ jobs:
         cat >  /home/runner/accounts/20.json  << EOF
         ${{ secrets.SA20_CONF }}
         EOF
-        cat >  /home/runner/accounts/21.json  << EOF
-        ${{ secrets.SA21_CONF }}
-        EOF
         cat >  /home/runner/accounts/22.json  << EOF
         ${{ secrets.SA2_CONF }}
         EOF
