@@ -82,7 +82,7 @@ jobs:
         cat >  /home/runner/accounts/20.json  << EOF
         ${{ secrets.SA20_CONF }}
         EOF
-		cat >  /home/runner/accounts/21.json  << EOF
+	cat >  /home/runner/accounts/21.json  << EOF
         ${{ secrets.SA21_CONF }}
         EOF
         cat >  /home/runner/accounts/22.json  << EOF
@@ -142,7 +142,7 @@ jobs:
         cat >  /home/runner/accounts/40.json  << EOF
         ${{ secrets.SA40_CONF }}
         EOF
-		cat >  /home/runner/accounts/41.json  << EOF
+	cat >  /home/runner/accounts/41.json  << EOF
         ${{ secrets.SA41_CONF }}
         EOF
         cat >  /home/runner/accounts/42.json  << EOF
@@ -202,7 +202,7 @@ jobs:
         cat >  /home/runner/accounts/60.json  << EOF
         ${{ secrets.SA60_CONF }}
         EOF
-		cat >  /home/runner/accounts/61.json  << EOF
+	cat >  /home/runner/accounts/61.json  << EOF
         ${{ secrets.SA61_CONF }}
         EOF
         cat >  /home/runner/accounts/62.json  << EOF
