@@ -83,17 +83,17 @@ jobs:
         ${{ secrets.SA20_CONF }}
         EOF
 	cat >  /home/runner/accounts/21.json  << EOF
-        ${{ secrets.SA21_CONF }}
-        EOF
-        cat >  /home/runner/accounts/22.json  << EOF
-        ${{ secrets.SA2_CONF }}
-        EOF
-        cat >  /home/runner/accounts/23.json  << EOF
-        ${{ secrets.SA23_CONF }}
-        EOF
-        cat >  /home/runner/accounts/24.json  << EOF
-        ${{ secrets.SA24_CONF }}
-        EOF
+	${{ secrets.SA21_CONF }}
+	EOF
+	cat >  /home/runner/accounts/22.json  << EOF
+	${{ secrets.SA2_CONF }}
+	EOF
+	cat >  /home/runner/accounts/23.json  << EOF
+	${{ secrets.SA23_CONF }}
+	EOF
+	cat >  /home/runner/accounts/24.json  << EOF
+	${{ secrets.SA24_CONF }}
+	EOF
         cat >  /home/runner/accounts/25.json  << EOF
         ${{ secrets.SA25_CONF }}
         EOF
