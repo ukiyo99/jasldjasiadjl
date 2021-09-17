@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: star
+    - cron: started
   workflow_dispatch:
 jobs:
   AutoSyncProcess:
