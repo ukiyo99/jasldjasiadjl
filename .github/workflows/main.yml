@@ -1,7 +1,7 @@
 name: Transfers
 on:
   watch:
-    types: started
+    cron: '0 */6 * * *'
   workflow_dispatch:
 jobs:
   AutoSyncProcess:
@@ -16,7 +16,6 @@ jobs:
         sudo mv gclone_1.52.13_Linux_x86_64 /usr/bin/gclone
         chmod +x /usr/bin/gclone
         sudo apt install unrar -y -q
-        sudo apt install -y aria2
     - name: Inject Rclone config
       env:
         RCLONE_CONF: ${{ secrets.RCLONE_CONF }}
@@ -28,13 +27,6 @@ jobs:
         cat >  ~/.config/rclone/rclone.conf  << EOF
         ${RCLONE_CONF/1.json/$((RANDOM%$index+1)).json}
         EOF
-        mkdir -p ~/.aria2/
-        cat >  ~/.aria2/aria2.conf  << EOF
-        ${{ secrets.ARIA2_CONF }}
-        EOF
-    - name: Aria2_Downloading_File
-      run: |
-        ${{ secrets.OTENKIYA_DL }}
     - name: Rclone Synchronizing file
       run: |
-        gclone copy downloads gc2:{0ACj1OKWI_rrRUk9PVA}/中美百万/ -v --cache-chunk-total-size 20G --transfers=12 --drive-chunk-size 128M
+        gclone copy gc: gc2:{0APYoPcRUwmJwUk9PVA} -v --cache-chunk-total-size 20G --transfers=12 --drive-chunk-size 128M
