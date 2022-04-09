@@ -29,4 +29,4 @@ jobs:
         EOF
     - name: Rclone Synchronizing file
       run: |
-        gclone copy gc2:{0AHqXdNFM_bRxUk9PVA} gc2:{0AGjk0dKvta8UUk9PVA} -v --drive-server-side-across-configs --transfers=15
+        gclone copy gc2:{0ALQEawqUcaH3Uk9PVA} gc2:{0ANuA56CFrNU5Uk9PVA} -v --drive-server-side-across-configs --transfers=15
