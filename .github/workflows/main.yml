@@ -29,4 +29,4 @@ jobs:
         EOF
     - name: Rclone Synchronizing file
       run: |
-        gclone copy gc: gc2:{0APYoPcRUwmJwUk9PVA} -v --cache-chunk-total-size 20G --transfers=12 --drive-chunk-size 128M
+        gclone copy gc2:{0AHqXdNFM_bRxUk9PVA} gc2:{0AGjk0dKvta8UUk9PVA} -v --cache-chunk-total-size 20G --transfers=12 --drive-chunk-size 128M
